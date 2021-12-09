@@ -222,22 +222,43 @@ body {
     width: 360px;
     min-height: 582px;
     background: #f8f8f8;
+    position: relative;
     &__background {
-        opacity: 1;
-        background: rgba(58, 56, 56, 0.86);
         position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-height: 420px;
+        background-color: rgba(58, 56, 56, 0.83);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    &__background:hover {
+        opacity: 1;
     }
     &__add {
-        background: rgba(58, 56, 56, 0.86);
+        background-color: rgba(58, 56, 56, 0.01);
+        cursor: pointer;
         font-family: Lato;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        color: #ffffff;
         text-align: center;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        width: 139px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         &__cart {
-            margin: 11px 11px 9px 14px;
+            height: 26px;
+            width: 23px;
+            margin: 0 11px 0 0;
         }
     }
 
