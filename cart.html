@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <title>Корзина</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__flex">
+            <section class=" header__left">
+                <a class="header__logo" href="index.html"><img src="img/main.svg" alt="Главная"></a>
+                <a href="#"><img src="img/Search.svg" alt="Поиск"></a>
+            </section>
+            <nav class="header__right">
+                <a class="header__item" href="#"><img src="img/Menu.svg" alt="Меню"></a>
+                <a class="header__item" href="registration.html"><img src="img/Contacts.svg" alt="Контакты"></a>
+                <a class="header__item" href="cart.html"><img src="img/Cart.svg" alt="Корзина"></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="newarrivals">
+            <div class="container newarrivals__flex">
+                <div class="newarrivals__left">
+                    <p class="newarrivals__left__text">SHOPPING CART</p>
+                </div>
+            </div>
+        </section>
+        <section class="main__content container">
+            <article class="main__content__left">
+                <div class="main__content__left__item">
+                    <div class="cart__card">
+                        <div class="cart__card__img">
+                            <img src="img/card3.png" alt="card3">
+                        </div>
+                        <div class="cart__card__description">
+                            <div class="cart__card__description__text">
+                                <h2>MANGO PEOPLE <br> T-SHIRT</h2>
+                                <p>Price: <span class="cart__price">$300</span></p>
+                                <p>Color: Red</p>
+                                <p>Size: Xl </p>
+                                <div class="quantity">
+                                    <p>Quantity: <span class="quantity__number">2</span> </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="cart__card__delete">
+                            <a href="#"> <img src="img/close.svg" alt="close"></a>
+                        </div>
+                    </div>
+                    <div class="cart__card">
+                        <div class="cart__card__img">
+                            <img src="img/card7.png" alt="card7">
+                        </div>
+                        <div class="cart__card__description">
+                            <div class="cart__card__description__text">
+                                <h2>MANGO PEOPLE <br> T-SHIRT</h2>
+                                <p>Price: <span class="cart__price">$300</span></p>
+                                <p>Color: Red</p>
+                                <p>Size: Xl </p>
+                                <div class="quantity">
+                                    <p>Quantity: <span class="quantity__number">2</span> </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="cart__card__delete">
+                            <a href="#"> <img src="img/close.svg" alt="close"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content__left__buttons">
+                    <a class="main__content__left__btn" href="#">CLEAR SHOPPING CART</a>
+                    <a class="main__content__left__btn" href="#">CONTINUE SHOPPING</a>
+                </div>
+            </article>
+            <article class="main__content__right">
+
+                <div class="main__content__right__shipping">
+                    <h2>SHIPPING ADRESS</h2>
+                    <form action="#">
+                        <input class="print input__first" type="text" placeholder=" Bangladesh">
+                        <br>
+                        <input class="print" type="text" placeholder="State">
+                        <br>
+                        <input class="print" type="text" placeholder="Postcode / Zip">
+                        <br>
+                        <input class="print__quote" type="text" placeholder="GET A QUOTE">
+                        <br>
+                        <div class="main__content__send">
+                            <p class="main__content__send__sub">SUB TOTAL <span>$900</span></p>
+                            <p class="main__content__send__total">GRAND TOTAL <span>$900</span></p>
+                            <div class="main__content__send__flex">
+                                <div class="main__content__send__line">
+                                </div>
+                                <button class="main__content__send__btn" type="submit">PROCEED TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__top">
+            <div class="container footer__top__flex">
+                <article class="appeal">
+                    <img src="img/appeal.png" alt="appeal">
+                    <p class="appeal__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+                            class="appeal__text__special"> a
+                            pulvinar purus
+                            condimentum</span>“</p>
+                </article>
+                <article class="subscribe">
+                    <h2>SUBSCRIBE</h2>
+                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    <div class="form">
+                        <form class="subscribe__btn" action="#">
+                            <div>
+                                <input class="subscribe__print" type="email" placeholder="Enter Your Email">
+                            </div>
+                            <div>
+                                <button class="subscribe__button" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="footer__bottom">
+            <div class="container footer__bottom__flex">
+                <div class="footer__bottom__left">
+                    <p class="rights">© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="footer__bottom__right">
+                    <a class="footer__bottom__item" href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                    <a class="footer__bottom__item" href="#"><img src="img/instagram.svg" alt="instagram"></a>
+                    <a class="footer__bottom__item" href="#"><img src="img/p.svg" alt="p"></a>
+                    <a class="footer__bottom__item" href="#"><img src="img/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
